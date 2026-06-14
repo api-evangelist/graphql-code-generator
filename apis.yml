@@ -1,0 +1,52 @@
+aid: graphql-code-generator
+name: GraphQL Code Generator
+description: "Code generation tool from The Guild that generates TypeScript types, React hooks, resolvers, and SDKs from GraphQL schemas and operations, supporting 50+ plugins."
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://the-guild.dev/graphql/codegen
+baseURL: https://the-guild.dev/graphql/codegen
+created: 2026-06-14
+modified: 2026-06-14
+specificationVersion: '0.19'
+tags:
+  - GraphQL
+  - Code Generation
+  - TypeScript
+  - Developer Tools
+  - Open Source
+apis:
+  - aid: graphql-code-generator:api
+    name: GraphQL Code Generator API
+    description: Plugin-based code generation engine that consumes GraphQL schemas and operation documents to produce fully-typed TypeScript types, React hooks, Angular services, resolvers, and custom SDKs across 50+ community and built-in plugins.
+    tags:
+      - GraphQL
+      - Code Generation
+      - TypeScript
+      - Plugins
+    humanURL: https://the-guild.dev/graphql/codegen/docs
+    baseURL: https://the-guild.dev/graphql/codegen
+    properties:
+      - url: https://the-guild.dev/graphql/codegen/docs
+        type: Documentation
+      - url: graphql/graphql-code-generator-graphql.md
+        type: GraphQL
+common:
+  - url: https://the-guild.dev/graphql/codegen
+    type: Website
+  - url: https://the-guild.dev/graphql/codegen/docs
+    type: Documentation
+  - url: https://www.linkedin.com/company/the-guild-software
+    type: LinkedIn
+  - url: https://github.com/the-guild-org
+    type: GitHubOrganization
+  - url: https://the-guild.dev/graphql/hive#pricing
+    type: Pricing
+  - url: plans/graphql-code-generator-plans.md
+    type: Plans
+  - url: rate-limits/graphql-code-generator-rate-limits.md
+    type: RateLimits
+  - url: finops/graphql-code-generator-finops.md
+    type: FinOps
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
